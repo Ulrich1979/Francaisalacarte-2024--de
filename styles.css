@@ -38,6 +38,12 @@ header, footer, section {
   padding: 3rem max(calc((100vw - 1000px) / 2),1rem);
 }
 
+button {
+  padding: .5rem 1rem;
+  border: 2px solid var(--col-black);
+  border-radius: 1rem;
+}
+
 .flex-c, .flex-r {
   display: flex;
   flex-wrap: wrap;
