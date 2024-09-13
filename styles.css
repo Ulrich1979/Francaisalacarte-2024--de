@@ -4,6 +4,7 @@
   --col-white: #f8f8fd;
   --col-black: #03021c;
   --col-accent: #5369e0;
+  --brd-radius: .5rem;
 }
 
 * {
@@ -51,12 +52,7 @@ header, footer, section {
 button {
   padding: .5rem 1rem;
   border: 2px solid var(--col-black);
-  border-radius: .5rem;
-}
-
-button .highlight {
-  color: var(--col-white);
-  background-color: var(--col-black);
+  border-radius: var(--brd-radius);
 }
 
 button:hover {
@@ -84,7 +80,7 @@ button:hover {
 }
 
 .bigger {
-  font-size: 230%;
+  font-size: 300%;
 }
 
 /* HEADER */
@@ -108,9 +104,14 @@ nav a:hover {
 /* HERO */
 .hero-img {
   max-width: 100%;
-  border-radius: .5rem;
+  border-radius: var(--brd-radius);
   filter: grayscale(100%);
   object-fit: cover;
 }
 
 /* COUNTER */
+. counter-bar {
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  border-radius: var(--brd-radius);
+}
