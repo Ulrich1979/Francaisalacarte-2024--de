@@ -43,7 +43,17 @@ header, footer, section {
 button {
   padding: .5rem 1rem;
   border: 2px solid var(--col-black);
-  border-radius: 1rem;
+  border-radius: .5rem;
+}
+
+button .highlight {
+  color: var(--col-white);
+  background-color: var(--col-black);
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .flex-c, .flex-r {
@@ -65,12 +75,13 @@ button {
 
 .logo {
   font-style: italic;
-  font-weight: 600;
-  font-size: 1.1rem;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 nav a {
   text-decoration: none;
+  margin-left: 2rem;
 }
 
 nav a:hover {
@@ -81,7 +92,13 @@ nav a:hover {
 /* HERO */
 .hero-img {
   max-width: 100%;
-  border-radius: 1rem;
+  border-radius: .5rem;
   filter: grayscale(100%);
   object-fit: cover;
+}
+
+/* COUNTER */
+.sec-counter {
+  color: var(--col-white);
+  background-color: var(--col-black);
 }
