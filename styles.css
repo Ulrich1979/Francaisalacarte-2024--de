@@ -71,6 +71,14 @@ button:hover {
   gap: 3rem;
 }
 
+.smaller {
+  font-size: 80%;
+}
+
+.bigger {
+  font-size: 150%;
+}
+
 /* HEADER */
 
 .logo {
