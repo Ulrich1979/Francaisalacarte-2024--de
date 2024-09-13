@@ -17,8 +17,6 @@
   font-style: normal;
   transition: 0.2s;
   scroll-behavior: smooth;
-  background-color: var(--col-white);
-  color: var(--col-black)
 }
 
 h1 {
@@ -34,6 +32,16 @@ h2 {
 
 p {
   font-weight: 400;
+}
+
+.col-normal {
+  background-color: var(--col-white);
+  color: var(--col-black)
+}
+
+.col-invert {
+  color: var(--col-white);
+  background-color: var(--col-black);
 }
 
 header, footer, section {
@@ -106,7 +114,3 @@ nav a:hover {
 }
 
 /* COUNTER */
-.col-invert {
-  color: var(--col-white);
-  background-color: var(--col-black);
-}
