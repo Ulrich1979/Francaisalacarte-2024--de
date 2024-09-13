@@ -106,7 +106,7 @@ nav a:hover {
 }
 
 /* COUNTER */
-.sec-counter {
+.col-invert {
   color: var(--col-white);
   background-color: var(--col-black);
 }
