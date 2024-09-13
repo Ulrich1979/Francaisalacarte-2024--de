@@ -3,6 +3,7 @@
 :root {
   --col-white: #f8f8fd;
   --col-black: #03021c;
+  --col-accent: #5369e0;
 }
 
 * {
@@ -56,6 +57,24 @@ button {
 
 .flex-r {
   flex-direction: row;
+  justify-content: space-between;
+}
+
+/* HEADER */
+
+.logo {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--col-accent);
+  cursor: pointer;
 }
 
 /* HERO */
