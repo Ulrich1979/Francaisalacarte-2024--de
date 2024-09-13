@@ -32,6 +32,11 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: min(5vw, 2.1rem); 
+  font-weight: 500;
+}
+
 p {
   font-weight: 400;
 }
@@ -134,4 +139,9 @@ nav a:hover {
 .services-bar {
   padding: 2rem;
   border-radius: var(--brd-radius);
+}
+
+
+.services-bar p {
+  font-size: 1rem;
 }
