@@ -1,24 +1,36 @@
 /* GENERAL */
 
 :root {
-  --col-five: #ffffff;
-  --col-one: #03021c;
-  --col-accent: #165fe8;
-  --col-two: #f7f7ff;
-  --col-four: #e7e7f1;
+  --col-white: #f4f4f6;
+  --col-black: #03021c;
 }
 
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 1.15rem;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
-    font-style: normal;
-    transition: 0.2s;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  transition: 0.2s;
+  scroll-behavior: smooth;
+  background-color: var(--col-white);
+  color: var(--col-black)
+}
+
+header, footer, section {
+  padding: 3rem max(calc((100vw - 1000px) / 2),1rem);
+}
+
+.flex-c, flex-r {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-c {
+  flex-direction: column;
 }
