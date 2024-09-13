@@ -2,6 +2,7 @@
 
 :root {
   --col-white: #f8f8fd;
+  --col-lightgrey: #ececf1;
   --col-black: #03021c;
   --col-accent: #5369e0;
   --brd-radius: .5rem;
@@ -40,6 +41,11 @@ p {
   color: var(--col-black)
 }
 
+.col-fade {
+  background-color: var(--col-lightgrey);
+  columns: var(--col-black);
+}
+
 .col-invert {
   color: var(--col-white);
   background-color: var(--col-black);
@@ -50,6 +56,7 @@ header, footer, section {
 }
 
 button {
+  font-size: 0.95rem;
   padding: .5rem 1rem;
   border: 2px solid var(--col-black);
   border-radius: var(--brd-radius);
@@ -114,4 +121,9 @@ nav a:hover {
   justify-content: space-evenly;
   padding: 2rem 0;
   border-radius: var(--brd-radius);
+}
+
+/* SERVICES */
+.services-bar {
+
 }
