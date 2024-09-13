@@ -35,6 +35,10 @@ header, footer, section {
   flex-direction: column;
 }
 
+.flex-r {
+  flex-direction: row;
+}
+
 /* HERO */
 .hero-img {
   max-width: 30%;
