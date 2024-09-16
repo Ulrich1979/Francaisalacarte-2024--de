@@ -37,6 +37,10 @@ h3 {
   font-weight: 500;
 }
 
+i {
+  font-size: 2rem;
+}
+
 p {
   font-weight: 400;
 }
@@ -67,7 +71,7 @@ button {
   border-radius: var(--brd-radius);
 }
 
-button:hover {
+button:hover, a>i:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -85,6 +89,10 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   gap: 3rem;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .grid {
