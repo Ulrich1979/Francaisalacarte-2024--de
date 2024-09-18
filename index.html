@@ -106,6 +106,16 @@
         </div>
     </section>
 
+    <footer class="col-normal">
+        <div class="flex-r">
+            <p class="logo">Français à la carte</p>
+            <nav>
+                <a href="#" class="smaller" onclick="openImpressum()">Impressum/Datenschutz</a>
+                <a href="#" class="smaller" onclick="openAGB()">AGB</a>
+            </nav>
+        </div>
+    </footer>
+
     <section class="sec-info">
         <div id="dia-impressum" class="dialog">
             <p class="smaller dialog-button col-invert" onclick="closeImpressum()"><i class="fa-solid fa-xmark"></i></p>
@@ -171,16 +181,6 @@
         </div>
     </section>
     
-    <footer class="col-normal">
-        <div class="flex-r">
-            <p class="logo">Français à la carte</p>
-            <nav>
-                <a href="#" class="smaller" onclick="openImpressum()">Impressum/Datenschutz</a>
-                <a href="#" class="smaller" onclick="openAGB()">AGB</a>
-            </nav>
-        </div>
-    </footer>
-
     <script>
         function openImpressum() {
             document.getElementById("dia-impressum").style.height = "90%";

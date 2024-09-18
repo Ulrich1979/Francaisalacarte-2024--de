@@ -172,7 +172,7 @@ nav a:hover {
 }
 
 .dialog-button {
-  position: fixed;
+  position: absolute;
   top: calc(5% + 2rem);
   right: calc(5% + 2rem);
   margin-bottom: 3rem;
