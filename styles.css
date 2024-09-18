@@ -172,10 +172,10 @@ nav a:hover {
 }
 
 .dialog-button {
-  position: absolute;
-  top: calc(5% + 2rem);
+  position: sticky;
+  top: 0;
   right: calc(5% + 2rem);
-  margin-bottom: 3rem;
+  padding: 2rem;
 }
 
 .dialog-content {
