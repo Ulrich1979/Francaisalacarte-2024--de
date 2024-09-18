@@ -160,6 +160,8 @@ nav a:hover {
 .dialog {
   height: 0%;
   width: 90%;
+  border-radius: .5rem;
+  margin: 1rem;
   position: fixed;
   z-index: 1;
   top: 5%;
@@ -172,8 +174,8 @@ nav a:hover {
 }
 
 .dialog .fix-top-right {
-  position: fixed;
-  top: 10%;
-  right: 10%;
-  margin-bottom: 15%;
+  position: absolute;
+  top: calc(5% + 1rem);
+  right: calc(5% + 1rem);
+  margin-bottom: 3rem;
 }
