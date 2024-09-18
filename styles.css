@@ -67,6 +67,7 @@ header, footer, section {
 button {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap:1.2rem;
   font-size: 0.95rem;
   padding: .5rem 1rem;
@@ -188,7 +189,7 @@ nav a:hover {
 }
 
 /* RESPONSIVITY */
-@media only screen and (max-width: 25rem) {
+@media only screen and (max-width: 35rem) {
   .flex-r {
     flex-direction: column;
   }
