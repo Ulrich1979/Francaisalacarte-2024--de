@@ -167,7 +167,6 @@ nav a:hover {
   left: 5%;
   color: var(--col-white);
   background-color: var(--col-black);
-  font-size: 1rem;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -181,4 +180,8 @@ nav a:hover {
 
 .dialog-content {
   padding: 3.5rem 2rem;
+}
+
+.dialog-content p {
+  font-size: .85rem;
 }
