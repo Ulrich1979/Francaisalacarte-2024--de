@@ -197,4 +197,8 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 
+  .counter-bar {
+    padding: 2rem;
+  }
+  
 }
