@@ -161,7 +161,6 @@ nav a:hover {
   height: 0%;
   width: 90%;
   border-radius: .5rem;
-  margin: 1rem;
   position: fixed;
   z-index: 1;
   top: 5%;
@@ -173,9 +172,13 @@ nav a:hover {
   transition: 0.5s;
 }
 
-.dialog .fix-top-right {
+.dialog-button {
   position: absolute;
   top: calc(5% + 1rem);
   right: calc(5% + 1rem);
   margin-bottom: 3rem;
+}
+
+.dialog-content {
+  padding: 1rem;
 }
