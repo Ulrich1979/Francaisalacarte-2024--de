@@ -171,7 +171,7 @@ nav a:hover {
   transition: 0.5s;
 }
 
-.dialog fix-top-right {
+.dialog .fix-top-right {
   position: fixed;
   top: 10%;
   right: 10%;
