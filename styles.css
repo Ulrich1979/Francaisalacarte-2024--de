@@ -157,6 +157,7 @@ nav a:hover {
   font-size: 1rem;
 }
 
+/* DIALOGS */
 .dialog {
   height: 0%;
   width: 90%;
@@ -184,4 +185,16 @@ nav a:hover {
 
 .dialog-content p {
   font-size: .85rem;
+}
+
+*/ RESPONSIVITY */
+@media only screen and (max-width: 25rem) {
+  .flex-r {
+    flex-direction: column;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
 }
