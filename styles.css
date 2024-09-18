@@ -164,7 +164,9 @@ nav a:hover {
   z-index: 1;
   top: 5%;
   left: 5%;
+  color: var(--col-white);
   background-color: var(--col-black);
+  font-size: 1rem;
   overflow-x: hidden;
   transition: 0.5s;
 }
