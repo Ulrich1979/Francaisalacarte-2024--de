@@ -161,7 +161,7 @@ nav a:hover {
 .dialog {
   height: 0%;
   width: 90%;
-  border-radius: .5rem;
+  border-radius: var(--brd-radius);
   position: fixed;
   z-index: 1;
   top: 5%;
@@ -187,7 +187,7 @@ nav a:hover {
   font-size: .85rem;
 }
 
-*/ RESPONSIVITY */
+/* RESPONSIVITY */
 @media only screen and (max-width: 25rem) {
   .flex-r {
     flex-direction: column;
