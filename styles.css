@@ -22,6 +22,14 @@
   scroll-behavior: smooth;
 }
 
+h1, h2, h3 {
+  color: var(--col-accent1);
+}
+
+p, a {
+  color: var(--col-black);
+}
+
 h1 {
   font-size: min(10vw, 3.5rem); 
   font-weight: 700;
