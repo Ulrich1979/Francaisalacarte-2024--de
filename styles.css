@@ -166,6 +166,7 @@ nav a:hover {
 /* DIALOGS */
 .sec-info p {
   font-size: .85rem;
+  margin-bottom: .75rem;
 }
 
 /* RESPONSIVITY */
