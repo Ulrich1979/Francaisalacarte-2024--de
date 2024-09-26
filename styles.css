@@ -191,8 +191,12 @@ nav a:hover {
     padding: 2rem;
   }
   
-  .logo {
-    text-align: center;
+  .top-nav a {
+    display: none;
+  }
+
+  .top-nav .icon {
+    display: block;
   }
 
 }
