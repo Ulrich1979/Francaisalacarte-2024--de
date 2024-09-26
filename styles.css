@@ -4,7 +4,8 @@
   --col-white: #f8f8fd;
   --col-lightgrey: #ececf1;
   --col-black: #03021c;
-  --col-accent: #5369e0;
+  --col-accent1: #790000;
+  --col-accent2: #c1121f;
   --brd-radius: .5rem;
 }
 
@@ -127,7 +128,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--col-accent);
+  color: var(--col-accent2);
   cursor: pointer;
 }
 
