@@ -3,8 +3,8 @@
 :root {
   --col-white: #f8f8fd;
   --col-lightgrey: #ececf1;
-  --col-black: #03021c;
-  --col-accent1: #790000;
+  --col-black: #101212;
+  --col-accent1: #db442c;
   --col-accent2: #c1121f;
   --brd-radius: .5rem;
 }
@@ -24,10 +24,6 @@
 
 h1, h2, h3 {
   color: var(--col-accent1);
-}
-
-p, a {
-  color: var(--col-black);
 }
 
 h1 {
