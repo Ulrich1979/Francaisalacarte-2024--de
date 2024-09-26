@@ -50,6 +50,10 @@ p {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 .col-normal {
   background-color: var(--col-white);
   color: var(--col-black)
@@ -120,7 +124,7 @@ button:hover, a>i:hover {
 
 /* HEADER */
 
-.logo {
+.logo, .logo>a {
   font-style: italic;
   font-weight: 400;
   font-size: 1rem;
