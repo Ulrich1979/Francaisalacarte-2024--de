@@ -140,7 +140,9 @@ nav a:hover {
   cursor: pointer;
 }
 
-.top-nav 
+.top-nav.icon {
+  display: none;
+}
 
 /* HERO */
 .hero-img {
