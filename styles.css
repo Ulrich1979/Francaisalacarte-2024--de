@@ -140,7 +140,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-.top-nav.icon {
+.top-nav .icon {
   display: none;
 }
 
