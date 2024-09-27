@@ -129,8 +129,9 @@ button:hover, a>i:hover {
 /* HEADER */
 
 .logo, .logo>a {
+  color: var(--col-accent2);
   font-style: italic;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1rem;
 }
 
