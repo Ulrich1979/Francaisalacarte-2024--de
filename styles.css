@@ -202,6 +202,8 @@ nav a:hover {
 
   .top-nav.responsive a {
     display: block;
+    text-align: end;
+    margin-bottom: 1rem;
   }
 
   .top-nav .icon {
