@@ -104,6 +104,10 @@ button:hover, a>i:hover {
   gap: 3rem;
 }
 
+.flex-r .inline {
+  flex-direction: row;
+}
+
 .justify-start {
   justify-content: flex-start;
 }
@@ -193,6 +197,10 @@ nav a:hover {
   
   .top-nav a {
     display: none;
+  }
+
+  .top-nav .responsive a {
+    display: block;
   }
 
   .top-nav .icon {
