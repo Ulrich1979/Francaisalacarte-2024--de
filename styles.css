@@ -153,7 +153,7 @@ nav a:hover {
 .hero-img {
   max-width: 100%;
   border-radius: var(--brd-radius);
-  filter: grayscale(100%);
+  filter: contrast(115%) grayscale(30%);
   object-fit: cover;
 }
 
