@@ -104,7 +104,7 @@ button:hover, a>i:hover {
   gap: 3rem;
 }
 
-.flex-r .inline {
+.flex-r.inline {
   flex-direction: row;
 }
 
@@ -200,7 +200,7 @@ nav a:hover {
     display: none;
   }
 
-  .top-nav .responsive a {
+  .top-nav.responsive a {
     display: block;
   }
 
