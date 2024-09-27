@@ -135,6 +135,7 @@ button:hover, a>i:hover {
 }
 
 nav a {
+  color: var(--col-black);
   text-decoration: none;
   margin-left: 2rem;
 }
