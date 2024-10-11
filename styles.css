@@ -82,6 +82,7 @@ button {
   padding: .5rem 1rem;
   border: 2px solid var(--col-black);
   border-radius: var(--brd-radius);
+  background-color: transparent;
 }
 
 button>a>i {
