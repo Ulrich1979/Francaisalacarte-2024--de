@@ -189,13 +189,14 @@ nav a:hover {
 
 .slide-item {
   display: none;
+  position: relative;
   animation-name: slide;
   animation-duration: 0.66s;
 }
 
 @keyframes slide {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {left: 50%}
+  to {left: 0}
 }
 
 .dots {
