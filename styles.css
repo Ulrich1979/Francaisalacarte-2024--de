@@ -177,11 +177,9 @@ nav a:hover {
   border-radius: var(--brd-radius);
 }
 
-
-/* DIALOGS */
-.sec-info p {
-  font-size: .85rem;
-  margin-bottom: .75rem;
+*/ SLIDER */
+.slide-item {
+  width: 50%;
 }
 
 /* RESPONSIVITY */
