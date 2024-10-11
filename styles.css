@@ -181,9 +181,24 @@ nav a:hover {
   border-radius: var(--brd-radius);
 }
 
-*/ SLIDER */
+/* SLIDER */
 .slide-item {
   width: 50%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 .5rem;
+  border: 1px solid var(--col-black);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  border: none;
+  background-color: var(--col-accent2);
 }
 
 /* RESPONSIVITY */
