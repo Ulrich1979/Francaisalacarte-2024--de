@@ -118,7 +118,11 @@ button:hover, a>i:hover {
   gap: 3rem;
 }
 
-.smaller {
+.small {
+  font-size: 1rem;
+}
+
+.smallest {
   font-size: 80%;
 }
 
@@ -173,9 +177,6 @@ nav a:hover {
   border-radius: var(--brd-radius);
 }
 
-.services-bar p {
-  font-size: 1rem;
-}
 
 /* DIALOGS */
 .sec-info p {
