@@ -135,6 +135,10 @@ button:hover, a>i:hover {
   font-size: 300%;
 }
 
+.center {
+  text-align: center;
+}
+
 /* HEADER */
 
 .logo, .logo>a {
